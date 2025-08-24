@@ -324,7 +324,7 @@ class WeatherScene(object):
             )
 
         if self.current_temperature:
-            temp_str = f"{round(self.current_temperature)}°".rjust(4, " ")
+            temp_str = f"{round(self.current_temperature)}°F".rjust(4, " ")
 
             temp_colour = self.temperature_to_colour(self.current_temperature)
 

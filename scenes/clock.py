@@ -8,7 +8,8 @@ from rgbmatrix import graphics
 # Setup
 CLOCK_FONT = fonts.regular
 CLOCK_POSITION = (1, 8)
-CLOCK_COLOUR = colours.BLUE_DARK
+# CLOCK_COLOUR = colours.BLUE_DARK
+CLOCK_COLOUR = colours.TROPICAL_LIGHT_BLUE
 
 
 class ClockScene(object):
